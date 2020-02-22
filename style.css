@@ -1,0 +1,38 @@
+.navbar-nav {
+  flex-direction: row;
+}
+.navbar {
+  padding: 0px 20px;
+}
+.navbar a {
+  padding: 15px;
+}
+
+body {
+  background-repeat: repeat;
+  background: url(images/cats.jpg);
+  background-size: 400px;
+}
+
+#mainImg {
+  width: calc(500px - 20vw);
+  max-width: 100%;
+  min-width: 200px;
+  padding: 0% 5%;
+  display: block;
+  float: left;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+footer {
+  position: fixed;
+  height: 90px;
+  background: #333;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  bottom: 0px;
+}
