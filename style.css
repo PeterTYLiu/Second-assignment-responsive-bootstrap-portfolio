@@ -17,6 +17,16 @@
   background: #345678;
   cursor: pointer;
 }
+@media screen and (max-width: 575px) {
+  .navbar a.navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .navbar {
+    padding: 0px;
+  }
+}
 
 body {
   background-repeat: repeat;
