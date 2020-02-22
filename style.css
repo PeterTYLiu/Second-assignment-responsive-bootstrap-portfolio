@@ -1,3 +1,5 @@
+/*===================================== Navbar =====================================*/
+
 .navbar-nav {
   flex-direction: row;
 }
@@ -28,12 +30,18 @@
   }
 }
 
+/*===================================== All Pages =====================================*/
+
 body {
   background-repeat: repeat;
   background: url(images/cats.jpg);
   background-size: 400px;
 }
+.card-body {
+  padding: 2rem;
+}
 
+/*===================================== About/Index =====================================*/
 #mainImg {
   width: calc(500px - 20vw);
   max-width: 100%;
@@ -43,9 +51,7 @@ body {
   float: left;
 }
 
-.card-body {
-  padding: 2rem;
-}
+/*===================================== Portfolio page =====================================*/
 
 .portfolio-item {
   height: 150px;
