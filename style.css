@@ -7,6 +7,16 @@
 .navbar a {
   padding: 15px;
 }
+.navbar a.navbar-brand {
+  color: white;
+  background: #123456;
+  transition: all 0.2s ease-in-out;
+}
+.navbar a.navbar-brand:hover {
+  color: white;
+  background: #345678;
+  cursor: pointer;
+}
 
 body {
   background-repeat: repeat;
@@ -27,12 +37,43 @@ body {
   padding: 2rem;
 }
 
-footer {
-  position: fixed;
-  height: 90px;
-  background: #333;
+.portfolio-item {
+  height: 150px;
+  border: 10px solid white;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.portfolio-item:hover {
+  background-blend-mode: screen;
+}
+
+.portfolio-item h2 {
   text-align: center;
-  padding: 20px;
   color: white;
-  bottom: 0px;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0.4rem;
+  padding: 0.5rem;
+  width: 100%;
+  background: #123456af;
+}
+
+#pi1 {
+  background: no-repeat center/cover url("https://picsum.photos/200") #444;
+}
+#pi2 {
+  background: no-repeat center/cover url("https://picsum.photos/201") #444;
+}
+#pi3 {
+  background: no-repeat center/cover url("https://picsum.photos/202") #444;
+}
+#pi4 {
+  background: no-repeat center/cover url("https://picsum.photos/203") #444;
+}
+#pi5 {
+  background: no-repeat center/cover url("https://picsum.photos/204") #444;
+}
+#pi6 {
+  background: no-repeat center/cover url("https://picsum.photos/205") #444;
 }
